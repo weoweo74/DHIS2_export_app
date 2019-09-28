@@ -1,0 +1,22 @@
+{
+  "name": "dhis2-alma-export",
+  "version": "0.1.0",
+  "authors": [
+    "sdoerl <s.doerl@data-in-motion.biz>"
+  ],
+  "license": "EPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-spinners": "~3.0.2",
+    "file-saver.js": "~1.20150507.2",
+    "lodash": "*",
+    "moment": "~2.11.1"
+  }
+}

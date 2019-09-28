@@ -1,0 +1,17 @@
+{
+  "name": "Alma_Export",
+  "version": "0.2.13",
+  "description": "Exports region/indicator configuration and indicator data for usage with Alma/RMNCH platform",
+  "main": "Gruntfile.js",
+  "author": "sdoerl",
+  "license": "EPL",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bumpup": "^0.6.2",
+    "grunt-contrib-compress": "^0.13.0"
+  },
+  "scripts": {
+    "install": "bower install",
+    "postinstall": "grunt"
+  }
+}
